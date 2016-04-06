@@ -22,7 +22,7 @@
     <string name="phoneAppLabel" product="default"></string>
 
     <!-- Official label for the in-call UI. DO NOT TRANSLATE. -->
-    <string name="inCallLabel" translate="false">InCallUI</string>
+    <string name="inCallLabel" translatable="false">InCallUI</string>
 
     <!-- Call status -->
 
