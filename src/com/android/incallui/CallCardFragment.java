@@ -1543,7 +1543,19 @@ public class CallCardFragment extends BaseFragment<CallCardPresenter, CallCardPr
 
         mPrimaryCallCardContainer.removeOnLayoutChangeListener(layoutChangeListener);
 
-        mFloatingActionButtonController.scaleIn(AnimUtils.NO_DELAY);
+        // Don't show end button if state is incoming or disconnected.
+        Call call = CallList.getInstance().getFirstCall();
+        if (call != null) {
+            int state = call.getState();
+            if (!Call.State.isIncoming(state)
+                    && Call.State.isConnectingOrConnected(state)) {
+                mFloatingActionButtonController.scaleIn(AnimUtils.NO_DELAY);
+            } else if (mFloatingActionButton.isEnabled()) {
+                mFloatingActionButton.setEnabled(false);
+            }
+        } else {
+            mFloatingActionButtonController.scaleIn(AnimUtils.NO_DELAY);
+        }
     }
 
     private final class LayoutIgnoringListener implements View.OnLayoutChangeListener {

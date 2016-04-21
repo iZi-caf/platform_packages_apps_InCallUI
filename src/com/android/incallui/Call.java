@@ -96,6 +96,10 @@ public class Call {
             return state == DIALING || state == REDIALING;
         }
 
+        public static boolean isIncoming(int state) {
+            return state == INCOMING || state == CALL_WAITING;
+        }
+
         public static String toString(int state) {
             switch (state) {
                 case INVALID:
