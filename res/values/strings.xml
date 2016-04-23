@@ -342,7 +342,7 @@
     <string name="selectContact">select contact</string>
 
     <!-- "Respond via SMS" option that lets you compose a custom response. [CHAR LIMIT=30] -->
-    <string name="respond_via_sms_custom_message">Write your own...</string>
+    <string name="respond_via_sms_custom_message">Write your own\u2026</string>
     <!-- "Custom Message" Cancel alert dialog button -->
     <string name="custom_message_cancel">Cancel</string>
     <!-- "Custom Message" Send alert dialog button -->
