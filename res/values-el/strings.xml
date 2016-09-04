@@ -39,8 +39,9 @@
   <!-- "Audio mode" popup menu: Item label to select the handset earpiece [CHAR LIMIT=25] -->
   <string name="audio_mode_earpiece">Ακουστικό</string>
   <!-- "Audio mode" popup menu: Item label to select the wired headset [CHAR LIMIT=25] -->
-  <string name="audio_mode_wired_headset">Ενσύρ. ακουστ.</string>
+  <string name="audio_mode_wired_headset">Ενσύρματα ακουστικά</string>
   <!-- "Audio mode" popup menu: Item label to select the bluetooth headset [CHAR LIMIT=25] -->
+  <string name="audio_mode_bluetooth">Bluetooth</string>
   <!-- post dial -->
   <!-- In-call screen: body text of the dialog that appears when we encounter
          the "wait" character in a phone number to be dialed; this dialog asks the
@@ -354,6 +355,12 @@
   <string name="default_notification_description">Προεπιλεγμένος ήχος (<xliff:g id="DEFAULT_SOUND_TITLE">%1$s</xliff:g>)</string>
   <!-- The default value value for voicemail notification. -->
   <!-- Actual values used in our code for voicemail notifications. DO NOT TRANSLATE -->
+  <string name="menu_start_record">Ηχογράφηση κλήσης</string>
+  <string name="menu_stop_record">Διακοπή ηχογράφησης</string>
+  <string name="recording_time_text">Ηχογράφηση</string>
+  <string name="volume_boost_notify_enabled">"Ενίσχυση έντασης ενεργοποιημένη."</string>
+  <string name="volume_boost_notify_disabled">"Ενίσχυση έντασης απενεργοποιημένη."</string>
+  <string name="volume_boost_notify_unavailable">"Η ενίσχυση έντασης δεν είναι διαθέσιμη όταν είναι σε χρήση τα ενσύρματα/ασύρματα ακουστικά."</string>
   <!-- Setting option name to pick ringtone (a list dialog comes up). [CHAR LIMIT=30] -->
   <string name="ringtone_title" msgid="5379026328015343686">Ήχος κλήσης τηλεφώνου</string>
   <!-- Setting option name to enable or disable vibration when ringing
@@ -390,18 +397,41 @@
          a video call. [CHAR LIMIT=NONE] -->
   <string name="camera_off_description">Απενεργοποίηση κάμερας</string>
   <!-- Title for Select Account Dialog [CHAR LIMIT=30] -->
+  <string name="select_account_dialog_title">Επιλέξτε λογαριασμό</string>
   <!-- Set Subscription screen: label sub 1 -->
+  <string name="sub_1">ΣΥΝΔΡ 1</string>
   <!-- Set Subscription screen: label sub 2 -->
+  <string name="sub_2">ΣΥΝΔΡ 2</string>
   <!-- Used to inform the user that a call was received via a number other than the primary
         phone number associated with their device. [CHAR LIMIT=16] -->
   <string name="child_number">μέσω <xliff:g id="CHILD_NUMBER">%s</xliff:g></string>
   <!-- Used to inform the user that the note associated with an outgoing call has been sent.
          [CHAR LIMIT=32] -->
   <!--Begin add for RCS -->
+  <string name="onscreenMoreMenuText">Μενού περισσότερα</string>
+  <string name="recording_time_text">Ηχογράφηση</string>
   <string name="note_sent">Η σημείωση εστάλη</string>
+  <string name="call_state_dialing">Κλήση</string>
+  <string name="call_state_holding">Αναμονή</string>
+  <string name="call_state_active">Ενεργή</string>
+  <string name="call_state_unknown">Άγνωστo</string>
+  <string name="call_state_disconnecting">Αποσύνδεση</string>
+  <string name="call_state_disconnected">Αποσυνδέθηκε</string>
   <!-- International prefix source-->
   <!-- International prefix converted value-->
+  <string name="video_call_downgrade_without_lte_toast">Η απομάκρυμση από περιοχή κάλυψης 4G θα υποβαθμίσει την κλήση.</string>
+  <string name="display_rich_screen">Προβολή πλούσιας οθόνης;</string>
+  <string name="rcs_missdnaddress_string">MissdnAddress:</string>
+  <string name="rcs_greeting_string">Gretting:</string>
   <!--End add for RCS-->
+  <string name="toast_change_video_call_failed">Δεν μπορεί να αλλάξει σε κλήση με βίντεο, εσφαλμένη μορφή αριθμού</string>
+  <string name="toast_make_video_call_failed">Δεν μπορεί να γίνει κλήση βίντεο, εσφαλμένη μορφή αριθμού</string>
   <!-- Add for enhance videocall ui -->
+  <string name="overflowBothCallMenuItemText">Κλήση βίντεο, δείξε μου</string>
+  <string name="overflowRXCallMenuItemText">Κλήση βίντεο, Κρύψε με</string>
+  <string name="overflowVOCallMenuItemText">Φωνητική κλήση</string>
   <!-- VoWifi call quality indicators -->
+  <string name="vowifi_call_quality_good">Καλή ποιότητα φωνής</string>
+  <string name="vowifi_call_quality_fair">Μέτρια ποιότητα φωνής</string>
+  <string name="vowifi_call_quality_poor">Κακή ποιότητα φωνής</string>
 </resources>

@@ -394,8 +394,11 @@
          a video call. [CHAR LIMIT=NONE] -->
   <string name="camera_off_description">关闭摄像头</string>
   <!-- Title for Select Account Dialog [CHAR LIMIT=30] -->
+  <string name="select_account_dialog_title">选择账户</string>
   <!-- Set Subscription screen: label sub 1 -->
+  <string name="sub_1">订阅 1</string>
   <!-- Set Subscription screen: label sub 2 -->
+  <string name="sub_2">订阅 2</string>
   <!-- Used to inform the user that a call was received via a number other than the primary
         phone number associated with their device. [CHAR LIMIT=16] -->
   <string name="child_number">通过 <xliff:g id="CHILD_NUMBER">%s</xliff:g></string>
@@ -405,12 +408,27 @@
   <string name="onscreenMoreMenuText">更多菜单</string>
   <string name="recording_time_text">录音中</string>
   <string name="note_sent">已发送记事</string>
+  <string name="call_state_dialing">正在拨号</string>
+  <string name="call_state_holding">支持</string>
+  <string name="call_state_active">已激活</string>
+  <string name="call_state_unknown">未知</string>
+  <string name="call_state_disconnecting">正在断开</string>
+  <string name="call_state_disconnected">已断开连接</string>
   <!-- International prefix source-->
   <!-- International prefix converted value-->
+  <string name="video_call_downgrade_without_lte_toast">离开 LTE 覆盖地区降级调用。</string>
   <string name="display_rich_screen">显示增强屏显？</string>
   <string name="rcs_missdnaddress_string">归属地：</string>
   <string name="rcs_greeting_string">问候语：</string>
   <!--End add for RCS-->
+  <string name="toast_change_video_call_failed">不能更改为视频通话，不正确的数字格式</string>
+  <string name="toast_make_video_call_failed">不能视频通话，不正确的数字格式</string>
   <!-- Add for enhance videocall ui -->
+  <string name="overflowBothCallMenuItemText">视频通话，显示</string>
+  <string name="overflowRXCallMenuItemText">视频通话，隐藏</string>
+  <string name="overflowVOCallMenuItemText">语音通话</string>
   <!-- VoWifi call quality indicators -->
+  <string name="vowifi_call_quality_good">声音质量好</string>
+  <string name="vowifi_call_quality_fair">声音质量一般</string>
+  <string name="vowifi_call_quality_poor">声音质量差</string>
 </resources>
